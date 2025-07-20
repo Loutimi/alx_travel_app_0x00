@@ -52,4 +52,4 @@ class Review(models.Model):
 
 
     def __str__(self):
-        return f"Listing: {self.listing_id} Rating: {self.rating}"
+        return f"Rating: {self.rating} by User:{self.user}"
