@@ -23,7 +23,7 @@ class Command(BaseCommand):
             price_per_night = round(random.uniform(50, 500), 2)
 
             Listing.objects.create(
-                host_id=host,
+                host=host,
                 name=name,
                 description=description,
                 location=location,
